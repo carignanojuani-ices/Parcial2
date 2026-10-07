@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tapdJ1pLU7c=",
+  "dgSpecHash": "vhUCB42561I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Juani\\Desktop\\Parcial 2 - Practica\\Parcial 2\\AppConsola\\AccesoDatos\\AccesoDatos.csproj",
+  "projectFilePath": "C:\\Users\\Juani\\Desktop\\TP - 2026\\Parcial2\\AccesoDatos\\AccesoDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Juani\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.11\\microsoft.data.sqlite.core.10.0.11.nupkg.sha512",
     "C:\\Users\\Juani\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.11\\microsoft.entityframeworkcore.10.0.11.nupkg.sha512",

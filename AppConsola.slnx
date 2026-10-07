@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="AccesoDatos/AccesoDatos.csproj" />
   <Project Path="AppConsola/AppConsola.csproj" />
+  <Project Path="WinFormsApp/WinFormsApp.csproj" Id="76484a86-907c-4a11-aa2c-20de456df5ed" />
 </Solution>

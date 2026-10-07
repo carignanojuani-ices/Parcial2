@@ -1005,11 +1005,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juani\\Desktop\\Parcial 2 - Practica\\Parcial 2\\AppConsola\\AccesoDatos\\AccesoDatos.csproj",
+      "projectUniqueName": "C:\\Users\\Juani\\Desktop\\TP - 2026\\Parcial2\\AccesoDatos\\AccesoDatos.csproj",
       "projectName": "AccesoDatos",
-      "projectPath": "C:\\Users\\Juani\\Desktop\\Parcial 2 - Practica\\Parcial 2\\AppConsola\\AccesoDatos\\AccesoDatos.csproj",
+      "projectPath": "C:\\Users\\Juani\\Desktop\\TP - 2026\\Parcial2\\AccesoDatos\\AccesoDatos.csproj",
       "packagesPath": "C:\\Users\\Juani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juani\\Desktop\\Parcial 2 - Practica\\Parcial 2\\AppConsola\\AccesoDatos\\obj\\",
+      "outputPath": "C:\\Users\\Juani\\Desktop\\TP - 2026\\Parcial2\\AccesoDatos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

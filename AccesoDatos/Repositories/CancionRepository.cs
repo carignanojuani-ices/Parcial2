@@ -8,6 +8,7 @@ public class CancionRepository : GenericRepository<Cancion>
     {
         return _context.Cancion
                        .OrderByDescending(c => c.DuracionSegundos)
+                       .Include(c => c.Artista)
                        .ToList();
     }
 

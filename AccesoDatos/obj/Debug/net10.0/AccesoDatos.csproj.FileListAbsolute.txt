@@ -23,3 +23,29 @@ C:\Users\Juani\Desktop\Parcial 2 - Practica\Parcial 2\AppConsola\AccesoDatos\obj
 C:\Users\Juani\Desktop\Parcial 2 - Practica\Parcial 2\AppConsola\AccesoDatos\obj\Debug\net10.0\refint\AccesoDatos.dll
 C:\Users\Juani\Desktop\Parcial 2 - Practica\Parcial 2\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.pdb
 C:\Users\Juani\Desktop\Parcial 2 - Practica\Parcial 2\AppConsola\AccesoDatos\obj\Debug\net10.0\ref\AccesoDatos.dll
+C:\Users\jicarignano\Parcial2\AccesoDatos\bin\Debug\net10.0\AccesoDatos.deps.json
+C:\Users\jicarignano\Parcial2\AccesoDatos\bin\Debug\net10.0\AccesoDatos.dll
+C:\Users\jicarignano\Parcial2\AccesoDatos\bin\Debug\net10.0\AccesoDatos.pdb
+C:\Users\jicarignano\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\jicarignano\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jicarignano\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\jicarignano\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\jicarignano\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\jicarignano\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.sourcelink.json
+C:\Users\jicarignano\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.dll
+C:\Users\jicarignano\Parcial2\AccesoDatos\obj\Debug\net10.0\refint\AccesoDatos.dll
+C:\Users\jicarignano\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.pdb
+C:\Users\jicarignano\Parcial2\AccesoDatos\obj\Debug\net10.0\ref\AccesoDatos.dll
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\bin\Debug\net10.0\AccesoDatos.deps.json
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\bin\Debug\net10.0\AccesoDatos.dll
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\bin\Debug\net10.0\AccesoDatos.pdb
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.sourcelink.json
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.dll
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\obj\Debug\net10.0\refint\AccesoDatos.dll
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\obj\Debug\net10.0\AccesoDatos.pdb
+C:\Users\Juani\Desktop\TP - 2026\Parcial2\AccesoDatos\obj\Debug\net10.0\ref\AccesoDatos.dll

@@ -1,25 +1,29 @@
+using AccesoDatos.Models;
 using AccesoDatos.Repositories;
 
 namespace WinFormsApp
 {
     public partial class FrmMenuInicio : Form
     {
-        private readonly CancionRepository cancionRepository = new CancionRepository();
+        private readonly IGenericRepository<Artista> artistaRepository; 
+        private readonly CancionRepository cancionRepository;
 
-        public FrmMenuInicio()
+        public FrmMenuInicio(IGenericRepository<Artista> artistaRepository, CancionRepository cancionRepository)
         {
             InitializeComponent();
+            this.artistaRepository = artistaRepository;
+            this.cancionRepository = cancionRepository;
         }
 
         private void btnAltaArtista_Click(object sender, EventArgs e)
         {
-            using var frm = new FrmAltaArtista();
+            using var frm = new FrmAltaArtista(artistaRepository);
             frm.ShowDialog(this);
         }
 
         private void btnAltaCancion_Click(object sender, EventArgs e)
         {
-            using var frm = new FrmAltaCancion();
+            using var frm = new FrmAltaCancion(artistaRepository, cancionRepository);
             frm.ShowDialog(this);
         }
 

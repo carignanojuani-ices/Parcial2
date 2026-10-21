@@ -5,12 +5,16 @@ namespace WinFormsApp
 {
     public partial class FrmAltaCancion : Form
     {
-        private readonly IGenericRepository<Artista> artistaRepository = new GenericRepository<Artista>();
-        private readonly CancionRepository cancionRepository = new CancionRepository();
+        private readonly IGenericRepository<Artista> artistaRepository;
+        private readonly CancionRepository cancionRepository;
 
-        public FrmAltaCancion()
+        public FrmAltaCancion(IGenericRepository<Artista> artistaRepository, CancionRepository cancionRepository)
         {
             InitializeComponent();
+
+            this.artistaRepository = artistaRepository;
+            this.cancionRepository = cancionRepository;
+
             CargarArtistas();
         }
 
@@ -27,13 +31,23 @@ namespace WinFormsApp
 
             if (string.IsNullOrEmpty(titulo))
             {
-                MessageBox.Show("Debe ingresar el título de la canción.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(
+                    "Debe ingresar el título de la canción.",
+                    "Validación",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
                 return;
             }
 
             if (cmbArtistas.SelectedValue is not int artistaId)
             {
-                MessageBox.Show("Debe seleccionar un artista. Registre un artista primero si no hay ninguno.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(
+                    "Debe seleccionar un artista. Registre un artista primero si no hay ninguno.",
+                    "Validación",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
                 return;
             }
 
@@ -46,7 +60,11 @@ namespace WinFormsApp
 
             cancionRepository.Agregar(cancion);
 
-            MessageBox.Show("Canción registrada correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(
+                "Canción registrada correctamente.",
+                "Éxito",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
 
             txtTitulo.Clear();
             numDuracion.Value = 0;

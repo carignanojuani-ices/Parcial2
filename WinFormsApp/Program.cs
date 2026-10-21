@@ -1,6 +1,10 @@
+using AccesoDatos.Models;
+using AccesoDatos.Repositories;
+using Microsoft.Extensions.DependencyInjection;
+
 namespace WinFormsApp
 {
-    internal static class Program
+    static class Program
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -8,10 +12,25 @@ namespace WinFormsApp
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FrmMenuInicio());
+
+            // Registrar dependencias
+            var services = new ServiceCollection();
+
+            // Repositorys
+            services.AddTransient<IGenericRepository<Artista>, GenericRepository<Artista>>();
+            services.AddTransient<IGenericRepository<Cancion>, GenericRepository<Cancion>>();
+            services.AddTransient<CancionRepository>();
+
+            // Registrar el / los formularios.
+            services.AddTransient<FrmMenuInicio>();
+            services.AddTransient<FrmAltaArtista>();
+            services.AddTransient<FrmAltaCancion>();
+
+            // Construir y ejecutar
+            var provider = services.BuildServiceProvider();
+            Application.Run(provider.GetRequiredService<FrmMenuInicio>());
         }
     }
 }
+

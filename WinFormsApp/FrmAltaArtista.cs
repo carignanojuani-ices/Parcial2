@@ -5,11 +5,12 @@ namespace WinFormsApp
 {
     public partial class FrmAltaArtista : Form
     {
-        private readonly IGenericRepository<Artista> artistaRepository = new GenericRepository<Artista>();
+        private readonly IGenericRepository<Artista> artistaRepository;
 
-        public FrmAltaArtista()
+        public FrmAltaArtista(IGenericRepository<Artista> artistaRepository)
         {
             InitializeComponent();
+            this.artistaRepository = artistaRepository;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -37,6 +38,6 @@ namespace WinFormsApp
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Close();
-        }
+        }        
     }
 }
